@@ -200,63 +200,121 @@
 </nav>
   
 <div class="jumbotron text-center">
-  <h1>HandiHeplr</h1> 
-  <p>Christopher & Dana Reeve Foundation</p> 
+  <h1>Transportation</h1> 
+  <p>Bus/Train/Planes/Car Services/Taxi/Etc.</p> 
 </div>
 
+  <ul class="nav nav-tabs">
+     <li class="active"><a data-toggle="tab" href="#general">General</a></li>
+     <li><a data-toggle="tab" href="#comment">Comment</a></li>
+     </ul>
 
 
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <form>
-      <button type="submit" class= "btn btn-link">
-      <span class="glyphicon glyphicon-glass logo-small" href="tertiary.html"></span></button>
-      </form>
-      <h4>Restaurants</h4>
-      
+<div class="tab-content">
+        <div id="general" class="tab-pane fade in active">
+          <h2>GENERAL</h2>
+          <div class="container">
+             <h3>Is the site ADA approved?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+            <div class="container">
+             <h3>How would you rate the accomodation?</h3>
+                  <p>"1" begin the least accessible and "5" being the most</p>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">1 star</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">2 stars</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">3 stars</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">4 stars</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">5 stars</label>
+             </div>
+             </form>
+            </div>
+            <div class="container">
+             <h3>Is there an entrance ramp?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+           <div class="container">
+             <h3>Was it possible for you to utilize the transportation at all?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+           <div class="container">
+             <h3>Are there any obstacles to get into the entrance?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+            <div class="container">
+             <h3>Were the service attendants helpful and respectful (if applicable)?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">N/A</label>
+             </div>
+             </form>
+           </div>
+            <div style="text-align: center;">
+            <a class="btn btn-primary btn-lg " role="okay">Okay</a>
+            </div>
+        </div>
+    
+        <div id="comment" class="tab-pane fade">
+            <div class="container">
+                <h2>COMMENTS</h2>
+                <p>Leave any comments about specific conditions, rating, or accomodations that should be made to better improve the accessibility of the restaurant</p>
+                <form role="form">
+                <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <a class="btn btn-primary btn-lg btn-block" href="thankyou.html" role="submit">Submit</a>
+                </div>
+              </form>
+            </div>
+
+        </div>
+        
+        
     </div>
-    <div class="col-sm-4">
-      <form>
-      <button type="submit" class= "btn btn-link" href="tertiary.html">
-          <span class="glyphicon glyphicon-plane logo-small"></span></button>
-      </form>
-      <h4>Transportation</h4>
-      
-    </div>
-    <div class="col-sm-4">
-      <form>
-     <button type="submit" class= "btn btn-link" href="tertiary.html">
-      <span class="glyphicon glyphicon-home logo-small"></span>
-      </button>
-      </form>
-      <h4>Accomodations</h4>
-     
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-</div>
+  
 
 <script>
 $(document).ready(function(){
