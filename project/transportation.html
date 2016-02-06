@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <ul class="nav nav-tabs">
+     <li class="active"><a data-toggle="tab" href="#general">General</a></li>
+     <li><a data-toggle="tab" href="#comment">Comment</a></li>
+     </ul>
+
+
+<div class="tab-content">
+        <div id="general" class="tab-pane fade in active">
+          <h2>GENERAL</h2>
+          <div class="container">
+             <h3>Is the site ADA approved?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+            <div class="container">
+             <h3>How would you rate the accomodation?</h3>
+                  <p>"1" begin the least accessible and "5" being the most</p>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">1 star</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">2 stars</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">3 stars</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">4 stars</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">5 stars</label>
+             </div>
+             </form>
+            </div>
+            <div class="container">
+             <h3>Is there an entrance ramp?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+           <div class="container">
+             <h3>Was it possible for you to utilize the transportation at all?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+           <div class="container">
+             <h3>Are there any obstacles to get into the entrance?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             </form>
+           </div>
+            <div class="container">
+             <h3>Were the service attendants helpful and respectful (if applicable)?</h3>
+             <form role="form">
+             <div class="radio">
+                <label><input type="radio" name="optradio">Yes</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">No</label>
+             </div>
+             <div class="radio">
+                <label><input type="radio" name="optradio">N/A</label>
+             </div>
+             </form>
+           </div>
+            <a class="btn btn-primary btn-lg " role="okay">Okay</a>
+        </div>
+    
+        <div id="comment" class="tab-pane fade">
+            <div class="container">
+                <h2>COMMENTS</h2>
+                <p>Leave any comments about specific conditions, rating, or accomodations that should be made to better improve the accessibility of the restaurant</p>
+                <form role="form">
+                <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <a class="btn btn-primary btn-lg btn-block" href="thankyou.html" role="submit">Submit</a>
+                </div>
+              </form>
+            </div>
+
+        </div>
+        
+        
+    </div>
+    
+</body>
+</html>
